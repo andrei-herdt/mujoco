@@ -131,6 +131,10 @@
               <joint name="knee_right" class="knee"/>
               <geom name="shin_right" class="shin"/>
               <body name="foot_right" pos="0 0 -.39">
+                <site name="rfoot1" size="0.01" pos="-0.08 -0.01 -0.02"/>
+                <site name="rfoot2" size="0.01" pos="-0.08 +0.01 -0.02"/>
+                <site name="rfoot3" size="0.01" pos="+0.14 +0.03 -0.02"/>
+                <site name="rfoot4" size="0.01" pos="+0.14 -0.03 -0.02"/>
                 <joint name="ankle_y_right" class="ankle_y"/>
                 <joint name="ankle_x_right" class="ankle_x" axis="1 0 .5"/>
                 <geom name="foot1_right" class="foot1"/>
@@ -147,6 +151,10 @@
               <joint name="knee_left" class="knee"/>
               <geom name="shin_left" fromto="0 0 0 0 0 -.3" class="shin"/>
               <body name="foot_left" pos="0 0 -.39">
+                <site name="lfoot1" size="0.01" pos="-0.08 -0.01 -0.02"/>
+                <site name="lfoot2" size="0.01" pos="-0.08 +0.01 -0.02"/>
+                <site name="lfoot3" size="0.01" pos="+0.14 +0.03 -0.02"/>
+                <site name="lfoot4" size="0.01" pos="+0.14 -0.03 -0.02"/>
                 <joint name="ankle_y_left" class="ankle_y"/>
                 <joint name="ankle_x_left" class="ankle_x" axis="-1 0 -.5"/>
                 <geom name="foot1_left" class="foot1"/>
